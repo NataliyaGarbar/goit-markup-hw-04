@@ -114,6 +114,14 @@ address {
   color: #404bbf;
 }
 
+.header-nav-link .underlined:active {
+  color: #404bbf;
+  border-radius: 2px;
+  width: 48px;
+  height: 4px;
+  background: #404bbf;
+}
+
 .header-address {
   font-style: normal;
   margin-left: auto;
@@ -135,6 +143,7 @@ address {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: rgba(46, 47, 66, 0.7), url(../images/hero-bg.jpg);
 }
 
 .hero-container {
@@ -194,6 +203,16 @@ address {
   width: calc((100% - 3 * 24px) / 4);
 }
 
+.feature-item-icon {
+  fill: none;
+  display: flex;
+  align-items: center;
+  padding: 24px 100px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+}
+
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -245,7 +264,7 @@ address {
 }
 
 .team-card {
-  padding: 32px 0;
+  padding-top: 32px;
 }
 
 .team-subtitle {
@@ -264,7 +283,34 @@ address {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
+}
+
+.team-media-list {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+}
+
+.team-icon-link {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-icon-link:hover {
+  background-color: #404bbf;
+}
+
+.team-icon {
 }
 
 /*-------------------------------PORTFOLIO-------------*/
@@ -327,6 +373,7 @@ address {
 .footer {
   background-color: #2e2f42;
   padding: 100px 0;
+  display: flex;
 }
 
 .footer-container {
@@ -354,4 +401,38 @@ address {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
+}
+
+.footer-social-media-container {
+}
+
+.footer-social-media-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #fff;
+  max-width: 208px;
+  margin-bottom: 16px;
+}
+.footer-icon-list {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-link {
+  width: 40px;
+  height: 40px;
+  background-color: #4d5ae4;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icon {
+  fill: #f4f4fd;
+}
+
+.footer-link:hover {
+  background-color: #31d0aa;
 }
