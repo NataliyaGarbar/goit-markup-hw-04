@@ -63,7 +63,7 @@ address {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 4766, 0.08),
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -98,6 +98,7 @@ address {
 
 .header-nav-list-item {
   position: relative;
+  color: #404bbf;
 }
 
 .header-nav-link {
@@ -108,10 +109,10 @@ address {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-nav-link:active::after {
+.header-nav-link::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -120,6 +121,8 @@ address {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
+  
+ 
 }
 
 .header-nav-link:hover,
@@ -162,10 +165,12 @@ address {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
 }
 
 .hero-container {
-  max-width: 1440px;
+  
+
 }
 
 .hero-title {
@@ -472,6 +477,7 @@ team-icons-list-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+font-weight: 500
   color: #ffffff;
   margin-bottom: 16px;
 }
@@ -489,7 +495,7 @@ team-icons-list-item {
 .footer-link {
   width: 100%;
   height: 100%;
-  background-color: #4d5ae4;
+  background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
   align-items: center;
