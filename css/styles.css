@@ -109,10 +109,10 @@ address {
   color: #2e2f42;
   padding: 24px 0;
   display: block;
- transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-nav-link::after {
+.current::after {
   content: "";
   width: 100%;
   position: absolute;
@@ -121,8 +121,6 @@ address {
   height: 4px;
   background-color: #404bbf;
   border-radius: 2px;
-  
- 
 }
 
 .header-nav-link:hover,
@@ -169,8 +167,6 @@ address {
 }
 
 .hero-container {
-  
-
 }
 
 .hero-title {
@@ -477,7 +473,7 @@ team-icons-list-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-font-weight: 500
+  font-weight: 500;
   color: #ffffff;
   margin-bottom: 16px;
 }
