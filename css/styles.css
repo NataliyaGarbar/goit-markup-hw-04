@@ -166,7 +166,7 @@ address {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-container {
@@ -213,7 +213,6 @@ address {
 }
 
 .features-container {
-  max-width: 1440px;
 }
 
 .features-list {
@@ -233,7 +232,7 @@ address {
 }
 
 .features-item {
-  width: calc((100%-3 * 24) / 4);
+  width: calc((100%-3 * 24px) / 4);
 }
 
 .features-subtitle {
@@ -258,7 +257,6 @@ address {
 }
 
 .team-container {
-  width: 1440px;
 }
 
 .team-title {
@@ -351,7 +349,6 @@ team-icons-list-item {
 }
 
 .portfolio-container {
-  width: 1440px;
 }
 
 .portfolio-title {
